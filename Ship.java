@@ -1,4 +1,7 @@
 class Ship{
+    public Ship(){
+    System.out.println("Ship constructor is invoked");
+    }
    String name;
    double price;
    String fromplace;

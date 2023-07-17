@@ -1,4 +1,7 @@
 class Wallet{
+	public Wallet(){
+    System.out.println("Wallet constructor is invoked");
+    }
    String walletMaterialType;
    String contryOfOrigin;
    int price;

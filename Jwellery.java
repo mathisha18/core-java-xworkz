@@ -1,4 +1,7 @@
 class Jwellery{
+	public Jwellery(){
+    System.out.println("Jwellery constructor is invoked");
+    }
    String name;
    double price;
    String type;

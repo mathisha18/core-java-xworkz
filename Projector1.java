@@ -1,4 +1,7 @@
 class Projector1{
+	public Projector1(){
+    System.out.println("Projector constructor is invoked");
+    }
    String name;
    double price;
    String size;

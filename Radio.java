@@ -1,4 +1,7 @@
 class Radio{
+	public Radio(){
+    System.out.println("Radio constructor is invoked");
+    }
    String name;
    double price;
    String type;

@@ -1,4 +1,7 @@
 class Bar{
+	public Bar(){
+    System.out.println("Bar constructor is invoked");
+    }
    String name;
    double price;
    String size;

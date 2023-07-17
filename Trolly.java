@@ -1,4 +1,7 @@
 class Trolly{
+	public Trolly(){
+    System.out.println("Trolly constructor is invoked");
+    }
     String trollyColor;
     int price;
     int noOfPockets;

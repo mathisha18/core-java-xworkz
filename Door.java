@@ -1,4 +1,7 @@
 class Door{
+	public Door(){
+    System.out.println("Door constructor is invoked");
+    }
    String name;
    double price;
    String size;

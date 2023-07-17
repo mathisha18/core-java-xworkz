@@ -1,4 +1,7 @@
 class Printer{
+	public Printer(){
+    System.out.println("Printer constructor is invoked");
+    }
    String name;
    double price;
    String color;
